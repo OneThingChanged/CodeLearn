@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Cs.Algorithm
 {
+
     //GCD = Greatest Common Divisor = 최대공약수;
     //LCM = Least Common Multiple = 최소 공배수
-    public  static class GCDLCM
+    public static class Algorithm_GCDLCM
     {
-        public static int GCD(int a, int b) {
+        #region Code
+        public static int GCD(int a, int b)
+        {
             if (b > a)
             {
                 int tempSwap = a;
@@ -30,5 +33,18 @@ namespace Cs.Algorithm
         {
             return a * b / GCD(a, b);
         }
+
+        #endregion
+
+        #region Program
+        //static void Main(string[] args)
+        //{
+        //    int a = 38;
+        //    int b = 27;
+        //    Console.WriteLine($"a:{a} b:{b} {GCDLCM.GCD(a, b)}");
+        //    Console.WriteLine($"a:{a} b:{b} {GCDLCM.LCM(a, b)}");
+        //    Console.ReadLine();
+        //}
+        #endregion
     }
 }

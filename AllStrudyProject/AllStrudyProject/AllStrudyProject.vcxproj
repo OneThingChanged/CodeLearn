@@ -142,6 +142,11 @@
   <ItemGroup>
     <ClCompile Include="AllStrudyProject.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ContainerWithMostWater.h" />
+    <ClInclude Include="GCDLCM.h" />
+    <ClInclude Include="TwoSum.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

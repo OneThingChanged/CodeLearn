@@ -2,10 +2,27 @@
 //
 
 #include <iostream>
+#include <vector>
+#include "GCDLCM.h"
+#include "ContainerWithMostWater.h"
+using namespace std;
+using namespace Algorithm;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    vector<int> temp;
+    temp.push_back(1);
+    temp.push_back(8);
+    temp.push_back(6);
+    temp.push_back(2);
+    temp.push_back(5);
+    temp.push_back(4);
+    temp.push_back(8);
+    temp.push_back(3);
+    temp.push_back(7);
+    int a = Solution::maxArea(temp);
+    cout << a << endl;
+    return 0;
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

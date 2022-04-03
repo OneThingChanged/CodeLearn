@@ -43,12 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algoriths\GCDLCM.cs" />
+    <Compile Include="Algorithm\ContainerWithMostWater.cs" />
+    <Compile Include="Algorithm\DFS_Array방식.cs" />
+    <Compile Include="Algorithm\DFS_List방식.cs" />
+    <Compile Include="Algorithm\DFS_Edge방식.cs" />
+    <Compile Include="Algorithm\QuickSort.cs" />
+    <Compile Include="Algorithm\TwoSum.cs" />
+    <Compile Include="Algorithm\GCDLCM.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataStructure\" />
+    <Folder Include="Master Fang\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

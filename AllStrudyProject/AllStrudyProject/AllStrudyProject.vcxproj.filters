@@ -13,10 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{997448bd-2dbc-4f3d-ab72-1f91383919d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mastering the Coding Interview">
+      <UniqueIdentifier>{3e6e16dd-0260-4d8b-8470-f69813c5a4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mastering the Coding Interview\Array">
+      <UniqueIdentifier>{bdce7a9c-abe2-4185-87bd-ace712384612}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AllStrudyProject.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GCDLCM.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoSum.h">
+      <Filter>Mastering the Coding Interview\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerWithMostWater.h">
+      <Filter>Mastering the Coding Interview\Array</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
